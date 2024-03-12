@@ -1,0 +1,19 @@
+#pagetitle {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 80%;
+  color: #333;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 80%;
+  color: #333;
+}

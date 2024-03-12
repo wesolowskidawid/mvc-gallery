@@ -1,0 +1,78 @@
+#pagetitle {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 80%;
+  color: #333;
+}
+
+#rembutton {
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 15%;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border: 2px solid #333;
+  border-radius: 10%;
+}
+#rembutton:hover {
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+#photoGallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 80%;
+  height: 100%;
+}
+.miniPhoto {
+  width: 25%;
+  height: 40vh;
+  object-fit: cover;
+  margin: 0 auto;
+  margin-bottom: 10vh;
+  display: block;
+  border: 2px solid black;
+}
+.photo {
+  display: flex;
+  justify-content: center;
+}
+.photo-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pages {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  height: 3vh;
+  border: 1px solid black;
+  gap: 1rem;
+}
+.pages a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.pages a:hover {
+  color: #333;
+  cursor: pointer;
+}
